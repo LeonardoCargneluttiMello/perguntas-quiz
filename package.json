@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "Gerador de perguntas de quiz usando Google Gemini AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

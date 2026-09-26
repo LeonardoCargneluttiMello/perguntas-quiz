@@ -1,0 +1,32 @@
+[
+  {
+    "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
+    "opcoes": [
+      "1889",
+      "1822",
+      "1808",
+      "1891"
+    ],
+    "resposta": "1889"
+  },
+  {
+    "pergunta": "Qual líder político instaurou o regime conhecido como Estado Novo no Brasil em 1937?",
+    "opcoes": [
+      "Getúlio Vargas",
+      "Juscelino Kubitschek",
+      "Eurico Gaspar Dutra",
+      "Washington Luís"
+    ],
+    "resposta": "Getúlio Vargas"
+  },
+  {
+    "pergunta": "Qual movimento de caráter separatista ocorreu na Capitania de Minas Gerais em 1789 contra a cobrança excessiva de impostos da Coroa Portuguesa?",
+    "opcoes": [
+      "Inconfidência Mineira",
+      "Conjuração Baiana",
+      "Revolução Pernambucana",
+      "Guerra dos Emboabas"
+    ],
+    "resposta": "Inconfidência Mineira"
+  }
+]

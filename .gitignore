@@ -1,0 +1,5 @@
+# Ignorar arquivos de ambiente e logs
+.env
+node_modules/
+perguntas.json.log
+*.log
