@@ -37,7 +37,31 @@ if (!API_KEY) {
 const URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
 
 async function gerarPergunta() {
-  const prompt = `Gere exatamente ${quantidade} perguntas de múltipla escolha sobre "${tema}", com nível de dificuldade "${nivelDificuldade}" (fácil, médio ou difícil).
+  let prompt;
+  if (tema.toLowerCase() === 'geral') {
+    prompt = `Gere exatamente ${quantidade} perguntas de múltipla escolha de cultura geral, com nível de dificuldade "${nivelDificuldade}" (fácil, médio ou difícil).
+
+Distribua as perguntas de forma equilibrada entre estas categorias: "História", "Geografia", "Português", "Matemática", "Ciências", "Atualidades", "Entretenimento", "Esportes". Não concentre todas as perguntas em uma única categoria. Escolha os assuntos dentro de cada categoria livremente.
+
+Cada pergunta deve ter:
+- "pergunta": o enunciado da pergunta
+- "categoria": a categoria da pergunta, usando exatamente um dos valores da lista acima. Se não se encaixar em nenhuma delas, use "Geral"
+- "dificuldade": "${nivelDificuldade}"
+- "opcoes": um array com exatamente 4 opções (apenas 1 correta e 3 incorretas), em ordem aleatória
+- "resposta": o texto exato da opção correta (deve ser idêntico a um dos itens em "opcoes")
+- "explicacao": uma frase curta explicando por que a resposta está correta
+
+Regras:
+- Não repita perguntas nem respostas óbvias demais.
+- As opções incorretas devem ser plausíveis, não absurdas.
+- Não deixe nenhuma categoria com mais que o dobro de perguntas de outra, dentro do possível.
+
+Formato de saída OBRIGATÓRIO: APENAS um array JSON de objetos, no formato:
+[{"pergunta": "...", "categoria": "...", "dificuldade": "...", "opcoes": ["...", "...", "...", "..."], "resposta": "...", "explicacao": "..."}]
+
+Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown (\`\`\`json).`;
+  } else {
+    prompt = `Gere exatamente ${quantidade} perguntas de múltipla escolha sobre "${tema}", com nível de dificuldade "${nivelDificuldade}" (fácil, médio ou difícil).
 
 Cada pergunta deve ter:
 - "pergunta": o enunciado da pergunta
@@ -56,6 +80,7 @@ Formato de saída OBRIGATÓRIO: APENAS um array JSON de objetos, no formato:
 [{"pergunta": "...", "categoria": "...", "dificuldade": "...", "opcoes": ["...", "...", "...", "..."], "resposta": "...", "explicacao": "..."}]
 
 Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown (\`\`\`json).`;
+  }
 
   const body = {
     model: 'gemini-3.8-flash',
