@@ -1,54 +1,158 @@
 [
   {
-    "pergunta": "Qual grande ofensiva soviética, deflagrada em junho de 1944, resultou no colapso do Grupo de Exércitos Centro da Alemanha nazista e acelerou o avanço do Exército Vermelho rumo à Polônia?",
-    "categoria": "Frente Oriental",
+    "pergunta": "Qual confronto naval travado em junho de 1942 é amplamente considerado o ponto de virada decisivo na Guerra do Pacífico, após a Marinha dos Estados Unidos afundar quatro porta-aviões japoneses?",
+    "categoria": "História",
     "dificuldade": "médio",
     "opcoes": [
-      "Operação Urano",
-      "Operação Bagration",
-      "Operação Cidadela",
-      "Operação Barbarossa"
+      "Batalha de Midway",
+      "Batalha do Mar de Coral",
+      "Batalha do Golfo de Leyte",
+      "Batalha de Guadalcanal"
     ],
-    "resposta": "Operação Bagration",
-    "explicacao": "A Operação Bagration foi uma das maiores campanhas militares da história, resultando na quase total aniquilação do Grupo de Exércitos Centro alemão e na libertação da Bielorrússia."
+    "resposta": "Batalha de Midway",
+    "explicacao": "A vitória americana na Batalha de Midway neutralizou o avanço naval japonês e transferiu a iniciativa ofensiva aos Aliados no Pacífico."
   },
   {
-    "pergunta": "Qual foi a primeira conferência da Segunda Guerra Mundial em que os 'Três Grandes' (Winston Churchill, Franklin D. Roosevelt e Josef Stalin) se reuniram presencialmente para definir estratégias militares?",
-    "categoria": "Diplomacia Aliada",
+    "pergunta": "Em fevereiro de 1945, líderes das principais potências aliadas reuniram-se na Crimeia para discutir a partilha da Alemanha pós-guerra e a criação da ONU. Qual foi essa conferência?",
+    "categoria": "História",
     "dificuldade": "médio",
     "opcoes": [
-      "Conferência de Casablanca",
-      "Conferência de Yalta",
+      "Conferência de Potsdam",
       "Conferência de Teerã",
-      "Conferência de Potsdam"
+      "Conferência de Yalta",
+      "Conferência de Casablanca"
     ],
-    "resposta": "Conferência de Teerã",
-    "explicacao": "A Conferência de Teerã, realizada no final de 1943 no Irã, marcou o primeiro encontro presencial entre Stalin, Roosevelt e Churchill, formalizando o compromisso de abertura de uma frente ocidental na Europa."
+    "resposta": "Conferência de Yalta",
+    "explicacao": "A Conferência de Yalta reuniu Churchill, Roosevelt e Stalin para planejar a reorganização geopolítica da Europa e as zonas de ocupação da Alemanha."
   },
   {
-    "pergunta": "Qual evento histórico é considerado o marco inicial da Segunda Guerra Mundial na Europa, ocorrido em setembro de 1939?",
-    "categoria": "Início do Conflito",
-    "dificuldade": "fácil",
+    "pergunta": "Qual foi o codinome da invasão alemã à União Soviética iniciada em junho de 1941?",
+    "categoria": "História",
+    "dificuldade": "médio",
     "opcoes": [
-      "O ataque a Pearl Harbor",
-      "A invasão da Polônia pela Alemanha",
-      "A Batalha de Stalingrado",
-      "A queda da França"
+      "Operação Valquíria",
+      "Operação Leão Marinho",
+      "Operação Barba-Ruiva",
+      "Operação Overlord"
     ],
-    "resposta": "A invasão da Polônia pela Alemanha",
-    "explicacao": "A invasão da Polônia por forças alemãs em 1º de setembro de 1939 levou o Reino Unido e a França a declararem guerra à Alemanha, dando início oficial ao conflito."
+    "resposta": "Operação Barba-Ruiva",
+    "explicacao": "A Operação Barba-Ruiva (Barbarossa) foi a maior ofensiva militar terrestre da história, lançada pela Alemanha nazista contra a União Soviética em 1941."
   },
   {
-    "pergunta": "Quais países formavam os três membros centrais da aliança militar conhecida como o Eixo?",
-    "categoria": "Alianças e Frentes de Batalha",
-    "dificuldade": "fácil",
+    "pergunta": "Qual batalha naval de 1942 é considerada o ponto de virada decisivo na Guerra do Pacífico a favor dos Estados Unidos?",
+    "categoria": "História",
+    "dificuldade": "médio",
     "opcoes": [
-      "Reino Unido, França e União Soviética",
-      "Estados Unidos, Canadá e Austrália",
-      "Alemanha, Itália e Japão",
-      "Alemanha, União Soviética e Turquia"
+      "Batalha de Iwo Jima",
+      "Batalha de Midway",
+      "Batalha do Golfo de Leyte",
+      "Batalha do Mar de Coral"
     ],
-    "resposta": "Alemanha, Itália e Japão",
-    "explicacao": "Alemanha, Itália e Japão formaram a aliança do Eixo por meio de acordos políticos e militares, formalizados principalmente pelo Pacto Tripartite de 1940."
+    "resposta": "Batalha de Midway",
+    "explicacao": "Na Batalha de Midway, a Marinha dos EUA destruiu quatro porta-aviões japoneses essenciais, revertendo a iniciativa estratégica no Pacífico."
+  },
+  {
+    "pergunta": "Qual cidade foi palco do combate mais sangrento do Fronte Oriental, encerrado em fevereiro de 1943 com a rendição do 6º Exército alemão?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Moscou",
+      "Leningrado",
+      "Kursk",
+      "Stalingrado"
+    ],
+    "resposta": "Stalingrado",
+    "explicacao": "A vitória soviética em Stalingrado marcou o início da retirada definitiva das forças do Eixo na Europa Oriental."
+  },
+  {
+    "pergunta": "A Força Expedicionária Brasileira (FEB) destacou-se principalmente na conquista de qual posição estratégica na Itália em 1945?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Monte Cassino",
+      "Monte Castello",
+      "Linha Siegfried",
+      "Passo de Kasserine"
+    ],
+    "resposta": "Monte Castello",
+    "explicacao": "A tomada de Monte Castello, em fevereiro de 1945, foi a vitória mais emblemática dos soldados brasileiros na campanha da Itália."
+  },
+  {
+    "pergunta": "Em qual conferência de 1945 os líderes Roosevelt, Churchill e Stalin definiram a partilha da Alemanha em zonas de ocupação e a criação da ONU?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Conferência de Teerã",
+      "Conferência de Potsdam",
+      "Conferência de Yalta",
+      "Conferência de Casablanca"
+    ],
+    "resposta": "Conferência de Yalta",
+    "explicacao": "A Conferência de Yalta, realizada na Crimeia em fevereiro de 1945, delineou os rumos geopolíticos da Europa pós-guerra."
+  },
+  {
+    "pergunta": "Como era chamado o complexo sistema de fortificações construído pela França nos anos 1930 para conter um ataque alemão, mas que acabou sendo contornado?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Linha Gustav",
+      "Muralha do Atlântico",
+      "Linha Maginot",
+      "Linha Mannerheim"
+    ],
+    "resposta": "Linha Maginot",
+    "explicacao": "A Linha Maginot era uma barreira defensiva francesa na fronteira com a Alemanha, contornada pelas forças alemãs através da Bélgica e das Ardenas."
+  },
+  {
+    "pergunta": "Qual físico liderou a direção científica do Projeto Manhattan no laboratório de Los Alamos, responsável pelo desenvolvimento das primeiras bombas atômicas?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "J. Robert Oppenheimer",
+      "Enrico Fermi",
+      "Niels Bohr",
+      "Werner Heisenberg"
+    ],
+    "resposta": "J. Robert Oppenheimer",
+    "explicacao": "J. Robert Oppenheimer atuou como o diretor científico do laboratório de Los Alamos durante o Projeto Manhattan."
+  },
+  {
+    "pergunta": "O Pacto de Não Agressão assinado em agosto de 1939 entre a Alemanha Nazista e a União Soviética ficou conhecido como:",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Pacto Tripartite",
+      "Pacto de Varsóvia",
+      "Pacto Ribbentrop-Molotov",
+      "Pacto Anticomintern"
+    ],
+    "resposta": "Pacto Ribbentrop-Molotov",
+    "explicacao": "O Pacto Ribbentrop-Molotov foi assinado pelos ministros das Relações Exteriores da Alemanha e da URSS, contendo cláusulas secretas para a divisão da Polônia."
+  },
+  {
+    "pergunta": "Qual foi a maior batalha com veículos blindados da Segunda Guerra Mundial, travada entre tropas alemãs e soviéticas no verão de 1943?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Batalha das Ardenas",
+      "Batalha de Kursk",
+      "Batalha de El Alamein",
+      "Batalha de Kharkov"
+    ],
+    "resposta": "Batalha de Kursk",
+    "explicacao": "A Batalha de Kursk envolveu milhares de tanques e pôs fim definitivo à capacidade alemã de realizar grandes ofensivas estratégicas no leste."
+  },
+  {
+    "pergunta": "Qual general alemão ficou conhecido como a 'Raposa do Deserto' devido às suas manobras táticas no teatro de operações do Norte da África?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Heinz Guderian",
+      "Erich von Manstein",
+      "Erwin Rommel",
+      "Gerd von Rundstedt"
+    ],
+    "resposta": "Erwin Rommel",
+    "explicacao": "Erwin Rommel comandou o Afrika Korps e ganhou o apelido de 'Raposa do Deserto' por suas táticas ousadas contra forças aliadas numericamente superiores."
   }
 ]

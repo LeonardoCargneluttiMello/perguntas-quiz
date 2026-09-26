@@ -5,6 +5,7 @@ const quantidade = parseInt(process.argv[3], 10);
 const dificuldade = process.argv[4];
 
 const DIFICULDADES = ['fácil', 'médio', 'difícil'];
+const CATEGORIAS = ['História', 'Geografia', 'Português', 'Matemática', 'Ciências', 'Atualidades', 'Entretenimento', 'Esportes', 'Geral'];
 
 if (!tema || !quantidade || isNaN(quantidade) || quantidade <= 0) {
   console.error('Uso: node index.js "<tema>" <quantidade> <dificuldade>');
@@ -40,7 +41,7 @@ async function gerarPergunta() {
 
 Cada pergunta deve ter:
 - "pergunta": o enunciado da pergunta
-- "categoria": a categoria/subtema específico dentro de "${tema}" (ex: se o tema for "História do Brasil", a categoria pode ser "Período Colonial", "Era Vargas", etc.)
+- "categoria": a matéria/área geral à qual o tema pertence, escolhida SOMENTE entre estes valores: "História", "Geografia", "Português", "Matemática", "Ciências", "Atualidades", "Entretenimento", "Esportes", "Geral". Se o tema não se encaixar claramente em nenhuma dessas áreas, ou se houver qualquer dúvida sobre qual escolher, use "Geral". Nunca invente uma categoria fora dessa lista.
 - "dificuldade": "${nivelDificuldade}"
 - "opcoes": um array com exatamente 4 opções (apenas 1 correta e 3 incorretas), em ordem aleatória
 - "resposta": o texto exato da opção correta (deve ser idêntico a um dos itens em "opcoes")
@@ -49,7 +50,7 @@ Cada pergunta deve ter:
 Regras:
 - Não repita perguntas nem respostas óbvias demais.
 - As opções incorretas devem ser plausíveis, não absurdas.
-- Varie os subtemas dentro de "${tema}" entre as perguntas.
+- Varie os subtemas dentro de "${tema}" entre as perguntas, mesmo que a "categoria" continue a mesma.
 
 Formato de saída OBRIGATÓRIO: APENAS um array JSON de objetos, no formato:
 [{"pergunta": "...", "categoria": "...", "dificuldade": "...", "opcoes": ["...", "...", "...", "..."], "resposta": "...", "explicacao": "..."}]
@@ -120,6 +121,12 @@ Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown
       const validas = perguntaData.filter(p =>
         p && typeof p.pergunta === 'string' && Array.isArray(p.opcoes) && typeof p.resposta === 'string'
       );
+
+      validas.forEach(p => {
+        if (!CATEGORIAS.includes(p.categoria)) {
+          p.categoria = 'Geral';
+        }
+      });
 
       if (validas.length === 0) {
         if (tentativas >= 3) {
