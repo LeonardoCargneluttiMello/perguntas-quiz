@@ -1,32 +1,54 @@
 [
   {
-    "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
+    "pergunta": "Qual grande ofensiva soviética, deflagrada em junho de 1944, resultou no colapso do Grupo de Exércitos Centro da Alemanha nazista e acelerou o avanço do Exército Vermelho rumo à Polônia?",
+    "categoria": "Frente Oriental",
+    "dificuldade": "médio",
     "opcoes": [
-      "1889",
-      "1822",
-      "1808",
-      "1891"
+      "Operação Urano",
+      "Operação Bagration",
+      "Operação Cidadela",
+      "Operação Barbarossa"
     ],
-    "resposta": "1889"
+    "resposta": "Operação Bagration",
+    "explicacao": "A Operação Bagration foi uma das maiores campanhas militares da história, resultando na quase total aniquilação do Grupo de Exércitos Centro alemão e na libertação da Bielorrússia."
   },
   {
-    "pergunta": "Qual líder político instaurou o regime conhecido como Estado Novo no Brasil em 1937?",
+    "pergunta": "Qual foi a primeira conferência da Segunda Guerra Mundial em que os 'Três Grandes' (Winston Churchill, Franklin D. Roosevelt e Josef Stalin) se reuniram presencialmente para definir estratégias militares?",
+    "categoria": "Diplomacia Aliada",
+    "dificuldade": "médio",
     "opcoes": [
-      "Getúlio Vargas",
-      "Juscelino Kubitschek",
-      "Eurico Gaspar Dutra",
-      "Washington Luís"
+      "Conferência de Casablanca",
+      "Conferência de Yalta",
+      "Conferência de Teerã",
+      "Conferência de Potsdam"
     ],
-    "resposta": "Getúlio Vargas"
+    "resposta": "Conferência de Teerã",
+    "explicacao": "A Conferência de Teerã, realizada no final de 1943 no Irã, marcou o primeiro encontro presencial entre Stalin, Roosevelt e Churchill, formalizando o compromisso de abertura de uma frente ocidental na Europa."
   },
   {
-    "pergunta": "Qual movimento de caráter separatista ocorreu na Capitania de Minas Gerais em 1789 contra a cobrança excessiva de impostos da Coroa Portuguesa?",
+    "pergunta": "Qual evento histórico é considerado o marco inicial da Segunda Guerra Mundial na Europa, ocorrido em setembro de 1939?",
+    "categoria": "Início do Conflito",
+    "dificuldade": "fácil",
     "opcoes": [
-      "Inconfidência Mineira",
-      "Conjuração Baiana",
-      "Revolução Pernambucana",
-      "Guerra dos Emboabas"
+      "O ataque a Pearl Harbor",
+      "A invasão da Polônia pela Alemanha",
+      "A Batalha de Stalingrado",
+      "A queda da França"
     ],
-    "resposta": "Inconfidência Mineira"
+    "resposta": "A invasão da Polônia pela Alemanha",
+    "explicacao": "A invasão da Polônia por forças alemãs em 1º de setembro de 1939 levou o Reino Unido e a França a declararem guerra à Alemanha, dando início oficial ao conflito."
+  },
+  {
+    "pergunta": "Quais países formavam os três membros centrais da aliança militar conhecida como o Eixo?",
+    "categoria": "Alianças e Frentes de Batalha",
+    "dificuldade": "fácil",
+    "opcoes": [
+      "Reino Unido, França e União Soviética",
+      "Estados Unidos, Canadá e Austrália",
+      "Alemanha, Itália e Japão",
+      "Alemanha, União Soviética e Turquia"
+    ],
+    "resposta": "Alemanha, Itália e Japão",
+    "explicacao": "Alemanha, Itália e Japão formaram a aliança do Eixo por meio de acordos políticos e militares, formalizados principalmente pelo Pacto Tripartite de 1940."
   }
 ]

@@ -2,9 +2,26 @@ const fs = require('fs/promises');
 
 const tema = process.argv[2];
 const quantidade = parseInt(process.argv[3], 10);
+const dificuldade = process.argv[4];
+
+const DIFICULDADES = ['fácil', 'médio', 'difícil'];
 
 if (!tema || !quantidade || isNaN(quantidade) || quantidade <= 0) {
-  console.error('Uso: node index.js <tema> <quantidade>');
+  console.error('Uso: node index.js "<tema>" <quantidade> <dificuldade>');
+  console.error('Exemplo: node index.js "História do Brasil" 5 médio');
+  process.exit(1);
+}
+
+if (!dificuldade) {
+  console.error('Informe a dificuldade. Use exatamente um desses valores: fácil, médio ou difícil');
+  console.error('Exemplo: node index.js "História do Brasil" 5 médio');
+  process.exit(1);
+}
+
+const nivelDificuldade = dificuldade.toLowerCase();
+if (!DIFICULDADES.includes(nivelDificuldade)) {
+  console.error(`Dificuldade inválida: "${dificuldade}"`);
+  console.error('Valores aceitos (sem diferenciar maiúsculas/minúsculas): fácil, médio, difícil');
   process.exit(1);
 }
 
@@ -19,9 +36,25 @@ if (!API_KEY) {
 const URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
 
 async function gerarPergunta() {
-  const prompt = `Gere exatamente ${quantidade} perguntas de múltipla escolha sobre "${tema}", cada uma com 4 opções (apenas 1 correta e 3 incorretas). 
-  Formato de saída OBRIGATÓRIO: APENAS um array JSON de objetos no formato [{"pergunta": "...", "opcoes": ["...", "...", "...", "..."], "resposta": "..."}]. 
-  Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown.`;
+  const prompt = `Gere exatamente ${quantidade} perguntas de múltipla escolha sobre "${tema}", com nível de dificuldade "${nivelDificuldade}" (fácil, médio ou difícil).
+
+Cada pergunta deve ter:
+- "pergunta": o enunciado da pergunta
+- "categoria": a categoria/subtema específico dentro de "${tema}" (ex: se o tema for "História do Brasil", a categoria pode ser "Período Colonial", "Era Vargas", etc.)
+- "dificuldade": "${nivelDificuldade}"
+- "opcoes": um array com exatamente 4 opções (apenas 1 correta e 3 incorretas), em ordem aleatória
+- "resposta": o texto exato da opção correta (deve ser idêntico a um dos itens em "opcoes")
+- "explicacao": uma frase curta explicando por que a resposta está correta
+
+Regras:
+- Não repita perguntas nem respostas óbvias demais.
+- As opções incorretas devem ser plausíveis, não absurdas.
+- Varie os subtemas dentro de "${tema}" entre as perguntas.
+
+Formato de saída OBRIGATÓRIO: APENAS um array JSON de objetos, no formato:
+[{"pergunta": "...", "categoria": "...", "dificuldade": "...", "opcoes": ["...", "...", "...", "..."], "resposta": "...", "explicacao": "..."}]
+
+Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown (\`\`\`json).`;
 
   const body = {
     model: 'gemini-3.8-flash',
