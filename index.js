@@ -89,6 +89,7 @@ Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown
 
   let tentativas = 0;
   let sucesso = false;
+  let falhaRateLimit = false;
 
   while (tentativas < 3 && !sucesso) {
     tentativas++;
@@ -103,6 +104,7 @@ Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown
       });
 
       if (resp.status === 429 || resp.status === 503) {
+        falhaRateLimit = true;
         const waitTime = Math.pow(2, tentativas) * 1000;
         console.log(`Limite de taxa (${resp.status}), aguardando ${waitTime}ms antes da tentativa ${tentativas}...`);
         await new Promise(r => setTimeout(r, waitTime));
@@ -170,6 +172,10 @@ Não inclua nenhum texto antes ou depois do JSON, nem blocos de código markdown
       console.log(`Erro: ${erro.message}, retry ${tentativas}/3...`);
     }
   }
+
+  throw new Error(falhaRateLimit
+    ? 'Limite de requisições excedido após 3 tentativas'
+    : 'Falha ao gerar perguntas após 3 tentativas sem retorno');
 }
 
 async function main() {
