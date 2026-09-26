@@ -154,5 +154,200 @@
     ],
     "resposta": "Erwin Rommel",
     "explicacao": "Erwin Rommel comandou o Afrika Korps e ganhou o apelido de 'Raposa do Deserto' por suas táticas ousadas contra forças aliadas numericamente superiores."
+  },
+  {
+    "pergunta": "Durante a Guerra do Paraguai (1864–1870), qual aliança militar foi formalizada para combater as tropas lideradas por Francisco Solano López?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Aliança do Prata (Argentina, Uruguai e Peru)",
+      "Pacto de Assunção (Brasil, Argentina e Bolívia)",
+      "Tríplice Aliança (Brasil, Argentina e Uruguai)",
+      "Tríplice Corrente (Brasil, Uruguai e Chile)"
+    ],
+    "resposta": "Tríplice Aliança (Brasil, Argentina e Uruguai)",
+    "explicacao": "A Tríplice Aliança foi um tratado militar firmado em 1865 entre o Império do Brasil, a Argentina e o Uruguai para enfrentar a invasão e as forças paraguaias."
+  },
+  {
+    "pergunta": "Na Inglaterra do século XIX, qual movimento operário se caracterizou pela busca de reformas trabalhistas e democratização política através do envio de petições com milhões de assinaturas ao Parlamento?",
+    "categoria": "História",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Ludismo",
+      "Cartismo",
+      "Sindicalismo Revolucionário",
+      "Socialismo Utópico"
+    ],
+    "resposta": "Cartismo",
+    "explicacao": "O Cartismo foi um movimento político operário britânico centrado na 'Carta do Povo', que reivindicava melhorias sociais e o sufrágio universal masculino."
+  },
+  {
+    "pergunta": "Qual corrente marítima fria que atua no Oceano Pacífico é uma das principais responsáveis pelas condições de extrema aridez do Deserto do Atacama?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Corrente de Benguela",
+      "Corrente de Humboldt",
+      "Corrente das Malvinas",
+      "Corrente da Califórnia"
+    ],
+    "resposta": "Corrente de Humboldt",
+    "explicacao": "A Corrente de Humboldt resfria as massas de ar oceânicas, inibindo a evaporação e a consequente formação de chuvas no litoral do Chile e Peru."
+  },
+  {
+    "pergunta": "Qual estreito marítimo liga o Golfo Pérsico ao Golfo de Omã e representa uma das rotas geoestratégicas mais importantes para o transporte global de petróleo?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Estreito de Malaca",
+      "Estreito de Bab el-Mandeb",
+      "Estreito de Bósforo",
+      "Estreito de Ormuz"
+    ],
+    "resposta": "Estreito de Ormuz",
+    "explicacao": "O Estreito de Ormuz é a única passagem marítima aberta para o escoamento de petróleo produzido por nações costeiras do Golfo Pérsico em direção aos mercados globais."
+  },
+  {
+    "pergunta": "Em uma urna há 5 bolas vermelhas, 3 azuis e 2 verdes. Retirando-se duas bolas sucessivamente e sem reposição, qual é a probabilidade de ambas serem vermelhas?",
+    "categoria": "Matemática",
+    "dificuldade": "médio",
+    "opcoes": [
+      "1/4",
+      "2/9",
+      "5/18",
+      "1/3"
+    ],
+    "resposta": "2/9",
+    "explicacao": "A probabilidade da primeira ser vermelha é 5/10 (1/2) e a da segunda é 4/9; multiplicando-as, obtém-se (5/10) × (4/9) = 20/90 = 2/9."
+  },
+  {
+    "pergunta": "Em uma progressão aritmética (PA), o terceiro termo é igual a 11 e o nono termo é igual a 35. Qual é a soma dos dez primeiros termos dessa progressão?",
+    "categoria": "Matemática",
+    "dificuldade": "médio",
+    "opcoes": [
+      "190",
+      "205",
+      "210",
+      "225"
+    ],
+    "resposta": "210",
+    "explicacao": "A razão é r = (35 - 11)/(9 - 3) = 4, logo o primeiro termo é a1 = 3 e o décimo é a10 = 39; aplicando a fórmula da soma, temos S10 = (3 + 39) × 10 / 2 = 210."
+  },
+  {
+    "pergunta": "Durante o processo de transcrição gênica em células eucarióticas, qual enzima é a principal responsável por sintetizar o RNA mensageiro a partir de uma fita molde de DNA?",
+    "categoria": "Ciências",
+    "dificuldade": "médio",
+    "opcoes": [
+      "DNA polimerase",
+      "RNA polimerase",
+      "DNA ligase",
+      "DNA helicase"
+    ],
+    "resposta": "RNA polimerase",
+    "explicacao": "A RNA polimerase catalisa a síntese de uma fita de RNA a partir do pareamento de ribonucleotídeos complementares à fita molde de DNA."
+  },
+  {
+    "pergunta": "Quando um feixe de luz monocromática passa do ar para a água (um meio com maior índice de refração), o que ocorre com suas propriedades ondulatórias?",
+    "categoria": "Ciências",
+    "dificuldade": "médio",
+    "opcoes": [
+      "A velocidade e o comprimento de onda diminuem, enquanto a frequência permanece constante.",
+      "A velocidade diminui, a frequência aumenta e o comprimento de onda permanece inalterado.",
+      "A velocidade aumenta, o comprimento de onda diminui e a frequência permanece inalterada.",
+      "A velocidade e a frequência diminuem, enquanto o comprimento de onda permanece inalterado."
+    ],
+    "resposta": "A velocidade e o comprimento de onda diminuem, enquanto a frequência permanece constante.",
+    "explicacao": "Na refração, a frequência depende exclusivamente da fonte emissora e não muda, de modo que a redução na velocidade de propagação acarreta uma redução proporcional no comprimento de onda."
+  },
+  {
+    "pergunta": "Assinale a alternativa em que a concordância verbal está empregada em conformidade com a norma-padrão da língua portuguesa:",
+    "categoria": "Português",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Haviam muitos problemas a serem resolvidos pela comissão.",
+      "Fazem dois meses que a equipe trabalha no projeto.",
+      "Tratam-se de questões bastante delicadas para a empresa.",
+      "Mais de um candidato desistiu da prova antes do término."
+    ],
+    "resposta": "Mais de um candidato desistiu da prova antes do término.",
+    "explicacao": "A expressão 'mais de um' exige o verbo no singular, ao passo que 'haver' (existir), 'fazer' (tempo decorrido) e 'tratar-se de' (sujeito indeterminado) devem permanecer impessoais na 3ª pessoa do singular."
+  },
+  {
+    "pergunta": "Qual tenista é a única na história a conquistar o Golden Slam no mesmo ano civil, vencendo os quatro torneios de Grand Slam e a medalha de ouro olímpica?",
+    "categoria": "Esportes",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Serena Williams",
+      "Steffi Graf",
+      "Martina Navratilova",
+      "Margaret Court"
+    ],
+    "resposta": "Steffi Graf",
+    "explicacao": "Em 1988, a alemã Steffi Graf conquistou o Australian Open, Roland Garros, Wimbledon, US Open e os Jogos Olímpicos de Seul em uma única temporada."
+  },
+  {
+    "pergunta": "Qual das seguintes características climáticas é típica das regiões de clima mediterrâneo?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Chuvas bem distribuídas ao longo do ano com invernos rigorosos",
+      "Invernos amenos e chuvosos com verões quentes e secos",
+      "Verões extremamente chuvosos e invernos secos sob a influência de monções",
+      "Baixa amplitude térmica anual com precipitações diárias de convecção"
+    ],
+    "resposta": "Invernos amenos e chuvosos com verões quentes e secos",
+    "explicacao": "O clima mediterrâneo diferencia-se pela estiagem no verão e maior pluviosidade concentrada nos meses de inverno."
+  },
+  {
+    "pergunta": "O Estreito de Malaca representa uma das rotas marítimas mais estratégicas do planeta, conectando diretamente quais massas de água?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Mar Vermelho e Oceano Índico",
+      "Golfo Pérsico e Mar da Arábia",
+      "Oceano Índico e Mar da China Meridional",
+      "Oceano Atlântico e Mar Mediterrâneo"
+    ],
+    "resposta": "Oceano Índico e Mar da China Meridional",
+    "explicacao": "Localizado entre a Malásia e a ilha de Sumatra, esse estreito canaliza o tráfego marítimo entre o Índico e o Pacífico."
+  },
+  {
+    "pergunta": "A Falha de San Andreas, localizada no estado da Califórnia (EUA), é um exemplo clássico de qual tipo de limite entre placas tectônicas?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Limite transformante ou conservativo",
+      "Limite convergente com zona de subducção",
+      "Limite divergente com expansão de fundo oceânico",
+      "Limite convergente por obducção continental"
+    ],
+    "resposta": "Limite transformante ou conservativo",
+    "explicacao": "A falha resulta do deslizamento lateral entre as placas do Pacífico e Norte-Americana, sem destruição ou criação de placas."
+  },
+  {
+    "pergunta": "Em cartografia, a Projeção de Peters (Gall-Peters) diferencia-se historicamente da Projeção de Mercator por ser classificada como uma projeção:",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Conforme, priorizando a manutenção exata dos ângulos e formas",
+      "Equivalente, priorizando a proporção correta do tamanho das áreas",
+      "Azimutal equidistante, ideal para o traçado de rotas aeronáuticas",
+      "Cônica equidistante, específica para a representação das regiões polares"
+    ],
+    "resposta": "Equivalente, priorizando a proporção correta do tamanho das áreas",
+    "explicacao": "A Projeção de Peters preserva a proporcionalidade das superfícies continentais, embora distorça as formas originais."
+  },
+  {
+    "pergunta": "No modelo da Transição Demográfica, o que caracteriza predominantemente a Fase 2 (período de explosão do crescimento vegetativo)?",
+    "categoria": "Geografia",
+    "dificuldade": "médio",
+    "opcoes": [
+      "Redução acelerada da natalidade enquanto a mortalidade se mantém estável",
+      "Equilíbrio entre baixas taxas de natalidade e de mortalidade",
+      "Rápida queda da taxa de mortalidade mantendo altas taxas de natalidade",
+      "Taxa de mortalidade superando a taxa de natalidade, gerando encolhimento"
+    ],
+    "resposta": "Rápida queda da taxa de mortalidade mantendo altas taxas de natalidade",
+    "explicacao": "Avanços em saneamento e medicina diminuem as mortes precocemente, enquanto as taxas de natalidade demoram a cair, acelerando o crescimento."
   }
 ]
